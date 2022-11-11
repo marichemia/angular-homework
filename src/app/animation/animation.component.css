@@ -1,0 +1,19 @@
+.stewie {
+    position: fixed;
+    top: 70%;
+    z-index: 10;
+    animation-name: ridingbike;
+    animation-duration: 10000ms;
+    animation-delay: 3000ms;
+    animation-iteration-count: infinite;
+}
+
+@keyframes ridingbike {
+    0% {
+        left: 85%;
+    }
+
+    100% {
+        left: 0%;
+    }
+}
